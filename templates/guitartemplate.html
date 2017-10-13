@@ -4,15 +4,17 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='the.css') }}">
     </head>
     <body>
-
+        
         <ul>
             <li><a href="http://0.0.0.0:5000">Home</a></li>
             <li><a href="http://0.0.0.0:5000/Stratocaster">Stratocaster</a></li>
             <li><a href="http://0.0.0.0:5000/Les Paul">Les Paul</a></li>
             <li><a href="http://0.0.0.0:5000">About</a></li>
         </ul>
-
+              
         <div style="padding:20px;margin-top:30px;background-color:#1abc9c;height:1500px;">
-            <h1>Home</h1>
+            <h1>{{ name }}</h1>
+
+            {% block content %} {% endblock %}
     </body>
 </html>
