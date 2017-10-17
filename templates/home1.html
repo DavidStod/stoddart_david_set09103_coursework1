@@ -1,10 +1,9 @@
 <html>
     <head>
         <title>Coursework</title>
-        <link rel="stylesheet" href="{{ url_for('static', filename='the.css') }}">
+        <link rel="styleSheet" href="{{ url_for('static', filename='the.css')}}">
     </head>
     <body>
-        
         <ul>
             <li><a href="http://0.0.0.0:5000">Home</a></li>
             <li><a href="http://0.0.0.0:5000/Stratocaster">Stratocaster</a></li>
@@ -12,9 +11,9 @@
             <li><a href="http://0.0.0.0:5000/Telecaster">Telecaster</a></li>
             <li><a href="http://0.0.0.0:5000/SG">SG</a></li>
         </ul>
-              
-        <div style="padding:20px;margin-top:30px;background-color:#1abc9c;height:1500px;">
 
-            {% block content %} {% endblock %}
+        <div style="padding:20px;margin-top:30px;background-color:#1abc9c;height:1500px;">
+            <h1>Home</h1>
+            <p>This website is full of information about guitar models and the people who bulit them and what has happened to those guitars since their original relese date</p>
     </body>
 </html>
