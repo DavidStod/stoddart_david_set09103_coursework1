@@ -1,4 +1,0 @@
-{% extends "guitartemplate.html" %}
-{% block content %}
-    <p>eyo</p>
-{% endblock %}
