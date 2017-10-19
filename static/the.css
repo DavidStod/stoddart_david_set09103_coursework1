@@ -11,6 +11,7 @@ ul {
     position: fixed;
     top: 0;
     width: 100%;
+    font-family: Arial;
 }
 
 li {
@@ -30,6 +31,13 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: #c1c1c1;
 }
 
+h1 {
+    font-family: Arial;
+}
+
+p {
+    font-family: Arial;
+}
