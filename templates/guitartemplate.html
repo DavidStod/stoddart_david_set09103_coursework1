@@ -1,11 +1,13 @@
 <html>
     <head>
         <title>Coursework</title>
+        <!--connect to the css -->
         <link rel="stylesheet" href="{{ url_for('static', filename='the.css') }}">
     </head>
     <body>
         
         <ul>
+            <!--top bar-->
             <li><a href="http://0.0.0.0:5000">Home</a></li>
             <li><a href="http://0.0.0.0:5000/Stratocaster">Stratocaster</a></li>
             <li><a href="http://0.0.0.0:5000/Les-Paul">Les-Paul</a></li>
@@ -13,8 +15,9 @@
             <li><a href="http://0.0.0.0:5000/SG">SG</a></li>
         </ul>
               
-        <div style="padding:20px;margin-top:30px;background-color:#1abc9c;height:1500px;">
-
+        <div>
+            <!--where the other html documents are set to run-->
             {% block content %} {% endblock %}
+        </div>
     </body>
 </html>

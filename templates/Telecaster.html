@@ -1,10 +1,14 @@
+<!--state where said code is going to load into-->
 {% extends "guitartemplate.html" %}
+<!--start of content-->
 {% block content %}
-
+    <!--title-->
     <h1>Telecaster</h1>
 
+    <!--display img-->
     <img src="{{url_for('static', filename='images/tele.png')}}" width=100%>
 
+    <!--small descriptive paragraph-->
     <p>The Fender Telecaster is the worlds first commercially successful solid-body electric guitar.
     It was Developed by <a href="http://0.0.0.0:5000/Leo-fender">Leo Fender</a> in Fullerton California in 1950.Its simple yet effective design and revolutionart sound broke ground and set trends in electric guitar
     manufacturing and popular music. Introduced for national distribution as the Broadcaster in the autumn of 
@@ -12,4 +16,5 @@
     production in one form or another since its first incarnation.
     <br>
     There have been many big names using Telecasters such as Bruce Springsteen, Keith Richards, Chrissie Hynde, George Harrison Bob Dylan and many many more</p>
+<!--end of content-->
 {% endblock %}

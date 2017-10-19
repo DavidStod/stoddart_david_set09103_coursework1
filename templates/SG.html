@@ -1,10 +1,14 @@
+<!--state where said code is going to load into-->
 {% extends "guitartemplate.html" %}
+<!--start of content-->
 {% block content %}
-
+    <!--title-->
     <h1>SG</h1>
 
+    <!--display img-->
     <img src="{{url_for('static', filename='images/SG.png')}}" width=100%>
 
+    <!--small descriptive paragraph-->
     <p>The Gibson SG is a solid-body electric guitar model that was introduced in 1961(as a Gibson Les-Paul)
     by Gibson, and remains in production today with many variations on the initil design avaliable.
     The SG Standard in Gibson's best-elling model of all time. When Gibson relesed the first SG Gibson
@@ -12,4 +16,5 @@
     Les Paul himself however didnt like the redesign of his guitar so asked for his name to be taken off the guitar.
     <br>
     There have been many big names using SGs such as Frank Zappa, Angus Young, Tony Lommi, Derek Trucks and many many more.</p>
+<!--end of content-->
 {% endblock %}
